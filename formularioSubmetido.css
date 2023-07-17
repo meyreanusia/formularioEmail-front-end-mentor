@@ -1,0 +1,115 @@
+@media (min-width: 700px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(234, 29%, 20%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .container-principal {
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    width: 38%;
+    height: 45vh;
+    border-radius: 30px;
+    padding: 30px;
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .info > p {
+    color: #737279;
+    font-size: 16px;
+  }
+  .container-conteudo {
+    padding: 30px;
+  }
+ 
+  .container-conteudo h1 {
+    font-size: 42px;
+    color: #303145;
+  }
+
+  .container-conteudo button {
+    border-radius: 10px;
+    width: 100%;
+    height: 45px;
+    border: none;
+    font-weight: normal;
+    cursor: pointer;
+    color: white;
+    background-color: hsl(235, 18%, 26%);
+  }
+  .container-conteudo button:hover {
+    background: linear-gradient(to left, hsl(4, 100%, 67%) 40%, #fd5478);
+  }
+  .mostrarEmail{
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 699px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .container-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-principal .container-conteudo {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info > p {
+    color: #737279;
+    font-size: 16px;
+  }
+  .container-conteudo {
+    padding: 30px;
+  }
+  .container-conteudo h1 {
+    font-size: 42px;
+    color: #303145;
+  }
+ 
+  .container-conteudo button {
+    border-radius: 10px;
+    width: 100%;
+    height: 45px;
+    border: none;
+    font-weight: normal;
+    cursor: pointer;
+    color: white;
+    background-color: hsl(235, 18%, 26%);
+  }
+  .container-conteudo button:hover {
+    background: linear-gradient(to left, hsl(4, 100%, 67%) 40%, #fd5478);
+  }
+  .mostrarEmail{
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+  }
+}
